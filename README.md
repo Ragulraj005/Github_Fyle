@@ -1,6 +1,7 @@
 # GitHub Repositories Viewer
 
-![GitHub Repositories Viewer](https://drive.google.com/file/d/1bJt-clk2FRmiRdMvG5Teqle-9NkxvFB8/view?usp=sharing)
+![GitHub Repositories Viewer](https://drive.google.com/your_image_link_here)
+
 
 ## Overview
 
