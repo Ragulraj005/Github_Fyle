@@ -1,0 +1,139 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.container-fluid {
+  padding: 20px;
+}
+
+.profile-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+
+.profile-left {
+  margin-right: 20px;
+}
+
+.profile-right {
+  flex: 1;
+}
+
+.profile-right h2 {
+  margin-top: 0;
+}
+
+
+.profile-container img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.profile-info {
+  max-width: 500px;
+}
+
+.repositories-section {
+  text-align: center;
+    
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.repositories-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: calc(100% - 20px); /* Two columns with 20px margin in between */
+  margin: 10px;
+  flex: 1; /* Occupy equal space in a flex container */
+}
+
+.card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+.topics-container {
+  margin-top: 10px;
+}
+
+.topics-container span {
+  margin-right: 5px;
+}
+
+.pagination-container {
+  margin-top: 20px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+  text-decoration: none;
+}
+
+.page-link:hover {
+  background-color: #0056b3;
+}
+
+.page-item.disabled .page-link {
+  cursor: not-allowed;
+  background-color: #d6d6d6;
+  border: 1px solid #d6d6d6;
+}
+
+.spinner-border {
+  margin: 20px;
+}
